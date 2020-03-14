@@ -1,0 +1,23 @@
+<view class="contain">
+  <!--不可滑动的tabbar-->
+  <view class="nav-tabs">
+    <view class="{{currentTab == idx ? 'nav-tabs__item__select' : 'nav-tabs__item__normal'}}" wx:for="{{tabArray}}" wx:key="key" wx:for-index="idx" wx:for-item="item" data-current="{{idx}}" bindtap="onSwitchNavTab">
+      {{item}}
+    </view>
+  </view>
+  <view class="nav-content {{currentTab == idx ? 'show' : 'hidden'}}" wx:for="{{tabArray}}" wx:key="key" wx:for-index="idx" wx:for-item="item">
+    {{item}}
+  </view>
+
+  <!--可以滑动的tabbar-->
+  <view class="nav-tabs">
+    <view class="{{currentTab == idx ? 'nav-tabs__item__select' : 'nav-tabs__item__normal'}}" wx:for="{{tabArray}}" wx:key="key" wx:for-index="idx" wx:for-item="item" data-current="{{idx}}" bindtap="onSwitchNavTab">
+      {{item}}
+    </view>
+  </view>
+  <swiper current="{{currentTab}}" class="nav-content" duration="300" bindchange="onSwiperBindChange">
+    <swiper-item wx:for="{{tabArray}}" wx:key="key" wx:for-index="idx" wx:for-item="item" data-current="{{idx}}">
+      <view>{{item}}</view>
+    </swiper-item>
+  </swiper>
+</view>
