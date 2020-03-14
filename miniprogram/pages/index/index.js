@@ -12,6 +12,18 @@ Page({
       {
         'title': 'navtabs使用',
         "url": '../navtabs/navtabs'
+      },
+      {
+        'title': '干货集中营',
+        "url": '../gank/index/index'
+      },
+      {
+        'title': '画布-时钟',
+        "url": '../clock/clock'
+      },
+      {
+        'title': '二维码生成器',
+        "url": '../qrcode/qrcode'
       }
     ]
   },

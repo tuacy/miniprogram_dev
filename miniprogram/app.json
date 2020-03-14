@@ -2,7 +2,10 @@
   "pages": [
     "pages/index/index",
     "pages/vant/vant",
-    "pages/navtabs/navtabs"
+    "pages/navtabs/navtabs",
+    "pages/gank/index/index",
+    "pages/clock/clock",
+    "pages/qrcode/qrcode"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -11,5 +14,12 @@
     "navigationBarTitleText": "小程序开发学习",
     "navigationBarTextStyle": "black"
   },
+  "networkTimeout": {
+    "request": 600000,
+    "connectSocket": 60000,
+    "uploadFile": 60000,
+    "downloadFile": 60000
+  },
+  "debug": true,
   "sitemapLocation": "sitemap.json"
 }

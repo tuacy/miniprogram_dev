@@ -60,6 +60,19 @@
 					"id": -1,
 					"name": "pages/navtabs/navtabs",
 					"pathName": "pages/navtabs/navtabs",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/gank/index/index",
+					"pathName": "pages/gank/index/index",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/clock/clock",
+					"pathName": "pages/clock/clock",
 					"scene": null
 				}
 			]
