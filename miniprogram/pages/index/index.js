@@ -24,6 +24,10 @@ Page({
       {
         'title': '二维码生成器',
         "url": '../qrcode/qrcode'
+      },
+      {
+        'title': '圆形菜单',
+        "url": '../circle/circle'
       }
     ]
   },

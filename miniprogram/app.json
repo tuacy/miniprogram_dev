@@ -5,7 +5,8 @@
     "pages/navtabs/navtabs",
     "pages/gank/index/index",
     "pages/clock/clock",
-    "pages/qrcode/qrcode"
+    "pages/qrcode/qrcode",
+    "pages/circle/circle"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
