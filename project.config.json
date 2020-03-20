@@ -79,8 +79,8 @@
 				},
 				{
 					"id": -1,
-					"name": "pages/circle/circle",
-					"pathName": "pages/circle/circle",
+					"name": "计算器",
+					"pathName": "pages/calculator/calculator",
 					"scene": null
 				}
 			]

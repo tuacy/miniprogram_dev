@@ -1,0 +1,69 @@
+/* pages/calculator/calculator.wxss */
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.result-container {
+  width: 100%;
+  height: 400rpx;
+  background-color: #222;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 40rpx;
+  padding-bottom: 20rpx;
+}
+
+.result {
+  color: #fff;
+  font-size: 110rpx;
+  font-family: Courier New, Courier, monospace;
+}
+
+.button-container {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0;
+}
+
+button::after {
+  border-radius: 0;
+}
+
+.number {
+  width: 25%;
+  background-color: lightgrey;
+}
+
+.large {
+  width: 50%;
+}
+
+.operator {
+  width: 25%;
+  background-color: darkorange;
+  color: #fff;
+}
+
+.optActive {
+  border: 2px #222 solid;
+}
