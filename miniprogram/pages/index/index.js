@@ -28,6 +28,10 @@ Page({
       {
         'title': '圆形菜单',
         "url": '../circle/circle'
+      },
+      {
+        'title': '圆形菜单',
+        "url": '../circle_menu/circle_menu'
       }
     ]
   },

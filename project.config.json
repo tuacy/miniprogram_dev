@@ -81,6 +81,13 @@
 					"id": -1,
 					"name": "pages/circle/circle",
 					"pathName": "pages/circle/circle",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/circle_menu/circle_menu",
+					"pathName": "pages/circle_menu/circle_menu",
 					"scene": null
 				}
 			]

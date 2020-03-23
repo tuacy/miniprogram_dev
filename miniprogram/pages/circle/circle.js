@@ -54,6 +54,7 @@ Page({
       menuList.push({ deg: i * degNum, menu: menuConfig[i].menu, src: menuConfig[i].src });
       console.log("menu:" + menuConfig[i].menu)
     }
+    console.log(menuList);
     that.setData({
       menuList: menuList
     });
