@@ -89,6 +89,12 @@
 					"name": "pages/circle_menu/circle_menu",
 					"pathName": "pages/circle_menu/circle_menu",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "计算器",
+					"pathName": "pages/calculator/calculator",
+					"scene": null
 				}
 			]
 		}
